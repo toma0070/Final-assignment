@@ -1,0 +1,14 @@
+.jumbotron{
+ text-align: left;
+ background-image: url("../img/galaxy.jpg");
+ height: 350px;
+}
+
+.navbar-brand{
+font-size: 50px;
+}
+
+
+.display-3{
+font-size: 35px;
+}
