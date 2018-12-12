@@ -1,7 +1,7 @@
 .jumbotron{
  text-align: left;
  background-image: url("../img/galaxy.jpg");
- height: 350px;
+ height: 40%vh;
 }
 
 .navbar-brand{
@@ -11,4 +11,12 @@ font-size: 50px;
 
 .display-3{
 font-size: 35px;
+text-align: right;
+}
+
+.rounded-circle{
+    vertical-align: middle;
+    height: 50%;
+    justify-content: center;
+
 }
