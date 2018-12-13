@@ -1,22 +1,46 @@
 .jumbotron{
- text-align: left;
- background-image: url("../img/galaxy.jpg");
- height: 40%vh;
+    text-align: left;
+    background-image: url(img/apples.jpg);
+    height: 40%vh;
+}
+
+.nav{
+    position: sticky;
 }
 
 .navbar-brand{
-font-size: 50px;
+    font-size: 30px;
 }
 
 
 .display-3{
-font-size: 35px;
-text-align: right;
+    font-size: 35px;
+    text-align: right;
+    float: right;
+    color: black;
 }
 
 .rounded-circle{
     vertical-align: middle;
     height: 50%;
     justify-content: center;
+    border: black solid;
 
 }
+
+.media{
+    width: 80%;
+    padding-left: 15%;
+}
+
+.container{
+    border: 0.5rem black solid;
+    width: 80%;
+}
+
+.media > img{
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
