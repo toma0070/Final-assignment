@@ -4,9 +4,6 @@
     height: 40%vh;
 }
 
-.nav{
-    position: sticky;
-}
 
 .navbar-brand{
     font-size: 30px;
@@ -17,7 +14,13 @@
     font-size: 35px;
     text-align: right;
     float: right;
-    color: black;
+    color:chartreuse;
+    padding-left: 300px;
+    display: block;
+    max-width: 800px;
+    min-width: 300px;
+    min-height: 100px;
+    text-shadow: 2px 2px black;
 }
 
 .rounded-circle{
@@ -31,6 +34,7 @@
 .media{
     width: 80%;
     padding-left: 15%;
+    word-break: break-all;
 }
 
 .container{
@@ -44,3 +48,44 @@
     max-width: 150px;
 }
 
+
+
+.card-body{
+    padding: 0.1rem;
+    min-height: 100px;
+}
+
+
+
+.card-text{
+    padding-bottom: 0.8rem;
+}
+
+
+.card{
+   min-height: 88vh;
+   border: 0.3rem black solid;
+}
+
+.portfolio-container{
+    width: 80%;
+    padding-left: 15%;
+}
+   
+
+
+.omg{
+    
+    font-size: 1vw;
+    padding: 50px 50px 50px 15%;
+    background-color: whitesmoke;
+    box-shadow: 0px 0px 18px 0px #000000;
+    border-radius: 20px 20px 20px 20px;
+    height: 75vh;
+    width: 80%;
+}
+
+.form-box{
+    padding: 50px;
+    
+}
